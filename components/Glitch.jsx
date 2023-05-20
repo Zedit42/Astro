@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import BookButton from './CrazyButton'
+import Link from 'next/link'
 
 const TextEffect1 = (props) => {
 
@@ -36,7 +37,10 @@ const TextEffect1 = (props) => {
         <span id="after-te1" className="absolute top-0 -left-0.5 w-full h-full bg-transparent" style={{ textShadow: "-2px 0 spin(#49FC00, 180)", clipPath: "rect(85px, 550px, 140px, 0)" }} aria-hidden="true">{props.text}</span> {/* glitch::after */}
       </h1>
       <div className=' mt-[1rem] max-lg:mt-[6rem]'>
-        <BookButton/>
+        <Link href='https://jolly-bunny-ca5e1e.netlify.app'>
+          <BookButton/>        
+        </Link>
+
       </div>
 
     </div>
