@@ -58,7 +58,7 @@ const Header = () => {
                             class="relative before:absolute before:-bottom-1 before:h-0.5 before:w-full before:origin-left before:scale-x-0 before:bg-gradient-to-r hover:text-gray-300 from-black to-blue-900 before:transition hover:before:scale-100"
                             href="/"
                             >
-                            Connect Wallet
+                            Wallet Connected
                         </Link>
                     </div>
                     {/* Burger Icon */}
